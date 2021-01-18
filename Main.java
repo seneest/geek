@@ -41,7 +41,7 @@ public class  Main
         System.out.println("Введите два целых числа для проверки, что их сумма лежит в пределах от 10 до 20 ");
         System.out.println("Введите первое число");
      int firstnum = in.nextInt();
-        System.out.println("Введите втрое число");
+        System.out.println("Введите второе число");
      int secondnum = in.nextInt();
 
         return new int[]{firstnum, secondnum};
