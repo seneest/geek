@@ -33,7 +33,7 @@ import java.util.Scanner;
                             lettersInPlace.setCharAt(i, myGuess.charAt(i));
                         }
                     }
-                    System.out.println("Wrong! But you have guessed the following letters in the word I have selected:");
+                    System.out.println("Wrong, but you have guessed the following letters in the word I have selected:");
                     System.out.println(lettersInPlace);
                     System.out.println("Now, try again!");
                 }
