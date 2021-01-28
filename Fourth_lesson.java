@@ -57,7 +57,7 @@ public class Fourth_lesson {
     void playerTurn() {
         int x, y;
         do {
-            System.out.println("YOUR TURN. Enter coordinates X &  Y");
+            System.out.println("YOUR TURN. Enter coordinates X & Y");
             x = sc.nextInt() - 1;
             y = sc.nextInt() - 1;
         } while (!isCellValid(x, y));
